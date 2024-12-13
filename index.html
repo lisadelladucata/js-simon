@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Simon says</title>
 </head>
 <body>
+    <header>
+        <div id="timer">
+            <p id="countdown-display"></p>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="random-numbers">
+                <p id="display-numbers"></p>
+            </div>
+            <form action="">
+                <div id="section-input" class="container">
+                    <p>Inserisci tutti i numeri che ricordi(non importa l'ordine)</p>
+                    <input type="number" id="num1" min="1" max="100" required>
+                    <input type="number" id="num2" min="1" max="100" required>
+                    <input type="number" id="num3" min="1" max="100" required>
+                    <input type="number" id="num4" min="1" max="100" required>
+                    <input type="number" id="num5" min="1" max="100" required>
+                    <button>Conferma</button>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <div id="result" class="hidden"></div>
+        </footer>
+    </main>
     <script src="./js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+#timer{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.container{
+    display: none;
+}
+
+.hidden{
+    display: none;
+}
+
+input{
+    font-size: 15px;
+    text-align: center;
+    width: 50px;
+    padding: 15px;
+    margin: 15px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+#result {
+    font-size: 15px;
+    padding: 20px 0px;
+}
